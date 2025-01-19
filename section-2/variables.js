@@ -12,7 +12,6 @@ everything inbetween is commented out.
 */
 
 
-// ********************************
 // VARIABLES
 // ********************************
 
@@ -40,7 +39,6 @@ const hello = "Hello world!"
 console.log(hello);
 
 
-// ********************************
 // DATA TYPES
 // ********************************
 
@@ -89,7 +87,6 @@ console.log(name, newName);
 console.log(meal, newMeal);
 
 
-// ********************************
 // TYPE CONVERSION
 // ********************************
 
@@ -113,7 +110,6 @@ amount = Boolean(amount);
 console.log(amount, typeof amount);
 
 
-// ********************************
 // OPERATORS
 // ********************************
 
@@ -142,7 +138,6 @@ x = 3 != "3";
 x = 3 !== "3";
 
 
-// ********************************
 // STRINGS
 // ********************************
 
