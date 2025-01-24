@@ -1,8 +1,5 @@
 // OBJECT LITERALS
 
-// INTRODUCTION
-// ********************************
-
 let x;
 
 const person = {
