@@ -1,16 +1,7 @@
 const library = [
     {
-        title: "My Book",
-        author: "Jane Doe",
-        status: {
-                own: true,
-                reading: false,
-                read: false,
-            },
-    },
-    {
-        title: "Steve Jobs",
-        author: "Walter Isaacson",
+        title: 'My Book',
+        author: 'Jane Doe',
         status: {
             own: true,
             reading: false,
@@ -18,8 +9,17 @@ const library = [
         },
     },
     {
-        title: "Mockingjay",
-        author: "Suzanne Collins",
+        title: 'Steve Jobs',
+        author: 'Walter Isaacson',
+        status: {
+            own: true,
+            reading: false,
+            read: false,
+        },
+    },
+    {
+        title: 'Mockingjay',
+        author: 'Suzanne Collins',
         status: {
             own: true,
             reading: false,
@@ -39,6 +39,6 @@ const { title: firstBook } = library[0];
 console.log(firstBook);
 
 // turn into JSON string
-const libraryJSON = JSON.stringify(library)
+const libraryJSON = JSON.stringify(library);
 
 console.log(libraryJSON);
